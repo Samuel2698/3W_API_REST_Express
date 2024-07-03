@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Samuel2698/3W_API_REST_Express#readme",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "express": "4.19.2"
   }
 }
