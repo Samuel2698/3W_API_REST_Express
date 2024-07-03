@@ -1,0 +1,23 @@
+{
+  "name": "api-restful-avec-express",
+  "version": "1.0.0",
+  "description": "A RESTful API for a 3W Academy project.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Samuel2698/3W_API_REST_Express.git"
+  },
+  "author": "Samuel Velasco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Samuel2698/3W_API_REST_Express/issues"
+  },
+  "homepage": "https://github.com/Samuel2698/3W_API_REST_Express#readme",
+  "dependencies": {
+    "express": "4.19.2"
+  }
+}
