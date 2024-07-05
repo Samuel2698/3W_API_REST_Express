@@ -1,4 +1,5 @@
 import express from 'express'
+import cors from 'cors'
 import { randomUUID } from 'node:crypto'
 import movies from './movies.json' assert { type: 'json' }
 import dotenv from 'dotenv'
@@ -8,6 +9,23 @@ dotenv.config()
 
 const app = express()
 app.use(express.json()) // To support JSON-encoded bodies
+app.use(
+  cors({
+    origin: (origin, callback) => {
+      const ACCEPTED_ORIGINS = [
+        'http://localhost:8080',
+        'http://localhost:4000',
+        'https://movies.com'
+      ]
+
+      if (ACCEPTED_ORIGINS.includes(origin) || !origin) {
+        return callback(null, true)
+      }
+
+      return callback(new Error('Not allowed by CORS'))
+    }
+  })
+)
 app.disable('x-powered-by') // To hide the Technology Stack
 
 app.get('/', (req, res) => {
@@ -71,6 +89,18 @@ app.patch('/movies/:id', (req, res) => {
   movies[findedIndexMovie] = updatedMovie
 
   return res.json(updatedMovie)
+})
+
+app.delete('/movies/:id', (req, res) => {
+  const { id } = req.params
+  const findedIndexMovie = movies.findIndex((movie) => movie.id === id)
+  if (findedIndexMovie === -1) {
+    res.status(404).json({ message: 'Movie id not found' })
+  }
+
+  movies.splice(findedIndexMovie, 1)
+
+  return res.json({ message: 'The movie has been deleted' })
 })
 
 const PORT = process.env.PORT ?? 1234
