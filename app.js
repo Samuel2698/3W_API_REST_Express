@@ -1,6 +1,6 @@
 import express, { json } from 'express'
 import { corsMiddleware } from './middlewares/cors.js'
-import { moviesRouter } from './routes/movies.js'
+import { seinenRouter } from './routes/seinen.js'
 import dotenv from 'dotenv'
 
 dotenv.config()
@@ -10,7 +10,7 @@ app.use(json())
 app.use(corsMiddleware())
 app.disable('x-powered-by')
 
-app.use('/movies', moviesRouter)
+app.use('/seinen', seinenRouter)
 
 const PORT = process.env.PORT ?? 1234
 

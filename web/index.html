@@ -3,20 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Films App 🎞️</title>
+    <title>KawaiiPlay</title>
     <link rel="stylesheet" href="styles.css" />
     <script type="module">
-      fetch('http://localhost:4000/movies')
+      fetch('http://localhost:4000/seinen')
         .then((res) => res.json())
-        .then((movies) => {
-          const html = movies
-            .map((movie) => {
+        .then((seinen) => {
+          const html = seinen
+            .map((seinen) => {
               return `
-            <article data-id=${movie.id}>
+            <article data-id=${seinen.id}>
 
-              <h2>${movie.title}</h2>
-              <p>${movie.year}</p>
-              <img src=${movie.poster} alt=${movie.title}>
+              <h2>${seinen.title}</h2>
+              <p>${seinen.year}</p>
+              <img src=${seinen.poster} alt=${seinen.title}>
               <button>Delete</button>
             </article>
             `
@@ -25,12 +25,12 @@
 
           document.querySelector('main').innerHTML = html
 
-          const deleteMovie = (e) => {
+          const deleteseinen = (e) => {
             if (e.target.matches('button')) {
               const article = e.target.closest('article')
               const id = article.dataset.id
 
-              fetch(`http://localhost:4000/movies/${id}`, {
+              fetch(`http://localhost:4000/seinen/${id}`, {
                 method: 'DELETE'
               }).then((res) => {
                 if (res.ok) {
@@ -40,14 +40,14 @@
             }
           }
 
-          document.addEventListener('click', deleteMovie)
+          document.addEventListener('click', deleteseinen)
         })
     </script>
   </head>
   <body>
     <div>
       <header>
-        <h1>Films App 📽️</h1>
+        <h1>KawaiiPlay 🀄</h1>
       </header>
       <main></main>
     </div>

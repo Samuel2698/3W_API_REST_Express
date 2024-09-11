@@ -1,0 +1,82 @@
+[
+  {
+    "id": "3d65d9e0-7b15-4f07-bdbf-365f25df52ea",
+    "title": "Attack on Titan",
+    "year": 2013,
+    "director": "Tetsurō Araki",
+    "duration": 24,
+    "poster": "https://fr.web.img4.acsta.net/pictures/18/10/31/18/23/3895256.jpg",
+    "genre": ["Action", "Drama", "Fantasy"],
+    "rate": 8.8
+  },
+  {
+    "id": "5bcd9134-f799-41a1-9a07-9f1e991a869f",
+    "title": "Tokyo Ghoul",
+    "year": 2014,
+    "director": "Shuhei Morita",
+    "duration": 24,
+    "poster": "https://m.media-amazon.com/images/M/MV5BOTM5ZjA2YWMtYjY3Ny00ZDU1LTk1NjYtMzhjMGY5ZmZkMzgwL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_FMjpg_UX1000_.jpg",
+    "genre": ["Action", "Horror", "Supernatural"],
+    "rate": 7.9
+  },
+  {
+    "id": "16ef40a8-d173-4348-8191-6b226a7ba4fe",
+    "title": "Berserk",
+    "year": 1997,
+    "director": "Naohito Takahashi",
+    "duration": 25,
+    "poster": "https://i.redd.it/1ut16y4s6rsb1.jpg",
+    "genre": ["Action", "Adventure", "Fantasy"],
+    "rate": 8.7
+  },
+  {
+    "id": "76fa9fd7-c2b1-4c3a-aadb-ea1f41c3bfa4",
+    "title": "Psycho-Pass",
+    "year": 2012,
+    "director": "Naoyoshi Shiotani",
+    "duration": 22,
+    "poster": "https://m.media-amazon.com/images/M/MV5BYTA0MTA3M2MtYTdiMy00ZGY0LTgwZjktMTE0NmVjZjk4OTE3XkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg",
+    "genre": ["Action", "Crime", "Sci-Fi"],
+    "rate": 8.2
+  },
+  {
+    "id": "11b9f9f0-cf44-4ef5-9430-f61a7d7e5c2b",
+    "title": "Parasyte: The Maxim",
+    "year": 2014,
+    "director": "Kenichi Shimizu",
+    "duration": 24,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMzg2YjA0NGYtYjQwMS00MDQyLWFlNWMtODVhNTBkYWIyNjE1XkEyXkFqcGc@._V1_.jpg",
+    "genre": ["Action", "Horror", "Sci-Fi"],
+    "rate": 8.3
+  },
+  {
+    "id": "8875b40a-0f6b-4df7-9356-c3e82bb3d05d",
+    "title": "Hellsing Ultimate",
+    "year": 2006,
+    "director": "Tomokazu Tokoro",
+    "duration": 50,
+    "poster": "https://m.media-amazon.com/images/M/MV5BNDQ3MTFlZmYtN2MwNC00YWQ0LTkxYmYtNGQ2Yjc2ZmU0MTViXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
+    "genre": ["Action", "Horror", "Supernatural"],
+    "rate": 8.3
+  },
+  {
+    "id": "1f2d91d4-988e-4e4a-94d5-52c4f2260aeb",
+    "title": "Vinland Saga",
+    "year": 2019,
+    "director": "Shuhei Yabuta",
+    "duration": 24,
+    "poster": "https://m.media-amazon.com/images/I/81rPC0owmrL._AC_UF894,1000_QL80_.jpg",
+    "genre": ["Action", "Adventure", "Drama"],
+    "rate": 8.8
+  },
+  {
+    "id": "eb3b3426-d631-45b4-bf1c-810e5bcdd407",
+    "title": "Ergo Proxy",
+    "year": 2006,
+    "director": "Shūkō Murase",
+    "duration": 25,
+    "poster": "https://m.media-amazon.com/images/M/MV5BOWUxNzIzNzgtYzhiMC00ZTlmLWIxYjctMjhhNDFhOGJmNjRmL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
+    "genre": ["Action", "Mystery", "Sci-Fi"],
+    "rate": 7.9
+  }
+]
