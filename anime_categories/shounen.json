@@ -1,0 +1,82 @@
+[
+  {
+    "id": "91f4a8c2-0137-4cda-9988-3bc7919dd2fd",
+    "title": "My Hero Academia",
+    "year": 2016,
+    "director": "Kenji Nagasaki",
+    "duration": 24,
+    "poster": "https://static.posters.cz/image/750/affiches-et-posters/my-hero-academia-season-1-i56127.jpg",
+    "genre": ["Action", "Adventure", "Shounen"],
+    "rate": 8.4
+  },
+  {
+    "id": "f8a7b27c-c05e-498e-a499-d62102e5877a",
+    "title": "Naruto",
+    "year": 2002,
+    "director": "Hayato Date",
+    "duration": 23,
+    "poster": "https://www.imagineres.fr/107431-large_default/naruto-shippuden-grand-poster-groupe-61-x-915-cm.jpg",
+    "genre": ["Action", "Adventure", "Shounen"],
+    "rate": 8.3
+  },
+  {
+    "id": "07bfa81e-78e1-4c14-8f6f-32d1f890fe4f",
+    "title": "One Piece",
+    "year": 1999,
+    "director": "Konosuke Uda",
+    "duration": 24,
+    "poster": "https://i.ebayimg.com/images/g/9~4AAOSwUAVegNCr/s-l1200.webp",
+    "genre": ["Action", "Adventure", "Shounen"],
+    "rate": 8.9
+  },
+  {
+    "id": "394c8a27-69b9-4d1d-a4f9-255b276e9bc5",
+    "title": "Bleach",
+    "year": 2004,
+    "director": "Noriyuki Abe",
+    "duration": 23,
+    "poster": "https://static.posters.cz/image/750/61129.jpg",
+    "genre": ["Action", "Supernatural", "Shounen"],
+    "rate": 8.2
+  },
+  {
+    "id": "f41d5f34-e85d-4c93-8746-73c12f10e6ef",
+    "title": "Fairy Tail",
+    "year": 2009,
+    "director": "Shinji Ishihira",
+    "duration": 24,
+    "poster": "https://m.media-amazon.com/images/I/71mPaFgVT4L.jpg",
+    "genre": ["Action", "Adventure", "Shounen"],
+    "rate": 7.9
+  },
+  {
+    "id": "15b8fc25-dad7-4c22-8d29-3963bb3a3a13",
+    "title": "Dragon Ball Z",
+    "year": 1989,
+    "director": "Daisuke Nishio",
+    "duration": 24,
+    "poster": "https://m.media-amazon.com/images/I/71w5wa1wdbL._AC_UF1000,1000_QL80_.jpg",
+    "genre": ["Action", "Fantasy", "Shounen"],
+    "rate": 8.7
+  },
+  {
+    "id": "2b13b120-58fc-4903-8a38-e6b340120ec0",
+    "title": "Hunter x Hunter",
+    "year": 2011,
+    "director": "Hiroshi Kōjina",
+    "duration": 23,
+    "poster": "https://m.media-amazon.com/images/I/81OiZ0rISoL._AC_SL1500_.jpg",
+    "genre": ["Action", "Adventure", "Shounen"],
+    "rate": 9.0
+  },
+  {
+    "id": "435fc891-05e3-474e-8ae8-8a9e320e562e",
+    "title": "Demon Slayer",
+    "year": 2019,
+    "director": "Haruo Sotozaki",
+    "duration": 24,
+    "poster": "https://fr.web.img6.acsta.net/pictures/19/09/18/13/46/1341879.jpg",
+    "genre": ["Action", "Supernatural", "Shounen"],
+    "rate": 8.7
+  }
+]
