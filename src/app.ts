@@ -1,6 +1,6 @@
 import express, { json } from 'express'
-import { corsMiddleware } from './middlewares/cors.js'
-import { animesRouter } from './routes/animes.js'
+import { corsMiddleware } from './middlewares/cors'
+import { animesRouter } from './routes/animes'
 import dotenv from 'dotenv'
 
 dotenv.config()

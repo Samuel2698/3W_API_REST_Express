@@ -1,9 +1,9 @@
-import z from 'zod'
+import { z } from 'zod'
 
 const animeschema = z.object({
   title: z.string({
     required_error: 'animes title is required',
-    invalid_type_error: 'animes title must be an string'
+    invalid_type_error: 'animes title must be a string'
   }),
   year: z.number().int().min(1895).max(2024),
   director: z.string(),
@@ -29,10 +29,13 @@ const animeschema = z.object({
   )
 })
 
-export function validatedAnimes(input) {
+type Anime = z.infer<typeof animeschema>
+type PartialAnime = Partial<Anime>
+
+export function validatedAnimes(input: Anime) {
   return animeschema.safeParse(input)
 }
 
-export function validatedPartialAnimes(input) {
+export function validatedPartialAnimes(input: PartialAnime) {
   return animeschema.partial().safeParse(input)
 }
