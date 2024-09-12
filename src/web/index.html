@@ -6,17 +6,17 @@
     <title>KawaiiPlay</title>
     <link rel="stylesheet" href="styles.css" />
     <script type="module">
-      fetch('http://localhost:4000/seinen')
+      fetch('http://localhost:4000/animes')
         .then((res) => res.json())
-        .then((seinen) => {
-          const html = seinen
-            .map((seinen) => {
+        .then((animes) => {
+          const html = animes
+            .map((animes) => {
               return `
-            <article data-id=${seinen.id}>
+            <article data-id=${animes.id}>
 
-              <h2>${seinen.title}</h2>
-              <p>${seinen.year}</p>
-              <img src=${seinen.poster} alt=${seinen.title}>
+              <h2>${animes.title}</h2>
+              <p>${animes.year}</p>
+              <img src=${animes.poster} alt=${animes.title}>
               <button>Delete</button>
             </article>
             `
@@ -25,12 +25,12 @@
 
           document.querySelector('main').innerHTML = html
 
-          const deleteseinen = (e) => {
+          const deleteanimes = (e) => {
             if (e.target.matches('button')) {
               const article = e.target.closest('article')
               const id = article.dataset.id
 
-              fetch(`http://localhost:4000/seinen/${id}`, {
+              fetch(`http://localhost:4000/animes/${id}`, {
                 method: 'DELETE'
               }).then((res) => {
                 if (res.ok) {
@@ -40,7 +40,7 @@
             }
           }
 
-          document.addEventListener('click', deleteseinen)
+          document.addEventListener('click', deleteanimes)
         })
     </script>
   </head>
